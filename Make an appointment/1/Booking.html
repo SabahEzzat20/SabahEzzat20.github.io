@@ -1,0 +1,43 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Booking</title>
+	<link rel="icon" href="../../booking.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="book.css">
+</head>
+<body>
+		<section class="book" id="book">
+		<div class="row">
+			<div class="image">
+				<img src="home-img.svg">
+			</div>
+			<form action="">
+				<input type="text" placeholder="Your Name" class="box">
+				<input type="number" placeholder="Your Number" class="box">
+				<input type="email" placeholder="Your Email" class="box">
+				<input type="date" class="box"><br><br>
+				<label for="Department"><span style="color: black;">Choose your department from the list : </span></label>
+		<input list="x">
+	 	<datalist id="x">
+	 		<option value="Dentistry"></option>
+	 		<option value="Ophthdlmology"></option>
+	 		<option value="Dermdtology"></option>
+	 		<option value="Psychiatry"></option>	
+	 		<option value="ENT"></option>
+	 		<option value="Cardiology"></option>
+	 		<option value="Orthopedics"></option>
+	 		<option value="Surgery"></option>
+	 		<option value="Rays"></option>	
+	 	</datalist><br><br>
+				<label for="Payment Method"><span style="color: black;">Choose your payment method : </span></label>
+        <input type="radio" name="dd"> Cash
+	 	<input type="radio" name="dd"> Credit Card
+
+				<input type="submit" value="Confirm" class="btn">
+			</form>
+			</div>
+		</section>
+</body>
+</html>	

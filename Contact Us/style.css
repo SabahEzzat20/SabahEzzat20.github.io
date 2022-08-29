@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+/* header{
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 200px;
+}
+.logo{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.8em;
+}
+.navigation a{
+	text-decoration: none;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	color: black;
+	font-weight: 500;
+	font-size: 1.1em;
+	padding-left: 30px;
+}
+.navigation a:hover{
+	color:#B6B6B6 ;
+	transition: 0.7s ease;
+}
+.navigation span{
+	color: red;
+}
+.navigation a:hover span{
+	color: black;
+	transition: 0.7s ease;
+}
+
+.footer{
+	background-color: black;
+}
+.dropbtn{
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{
+	background-color: #9B9B9B;
+	transition: 0.6s ease;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #9B9B9B;
+  color: black;
+}
+.dropdown-content .span{
+	background-color: darkred; 
+}*/
+ .contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 120 100 50 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	background-color: #384e78;
+
+}
+.contact .content {
+	max-width: 800px;
+	text-align: center;
+}
+.contact .content h2 {
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+	position: absolute;
+	top: 70px;/*last 100px*/
+	text-transform: capitalize;
+	right: 45%;
+	
+}
+
+ .containerr {
+    width: 100%;
+	position: absolute;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.containerr .contentinfo {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.containerr .contentinfo .box {
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.containerr .contentinfo .box .icon {
+	min-width: 60px;
+	height: 60px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+.containerr .contentinfo .box .text {
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+}
+.containerr .contentinfo .box .text h3 {
+	font-weight: 500;
+	color: #00bcd4;
+}
+.text h3 {
+	text-transform: capitalize;
+}
+.contact-form {
+	width: 40%;
+	padding: 40px;
+	background: #fff;
+}
+.inputbox span{
+	text-transform: capitalize;
+}
+.contact-form h2 {
+	font-size: 30px;
+	font-weight: 500;
+	color: #333;
+	text-transform: capitalize;
+}
+.contact-form .inputbox {
+	position:relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.contact-form .inputbox input, 
+.contact-form .inputbox textarea {
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+    resize: none;
+}
+.contact-form span {
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16;
+	margin: 10px 0;
+	pointer-events: none;
+	color: #666;
+	transition: 0.5s ease;
+
+
+}
+.contact-form .inputbox input:focus ~ span, 
+.contact-form .inputbox input:valid ~ span,
+.contact-form .inputbox textarea:focus ~ span, 
+.contact-form .inputbox textarea:valid ~ span {
+	color: #e91e63;
+	font-size: 12px;
+	transform: translate(-20px);
+}
+.contact-form .inputbox input[type="submit"]
+{
+	width: 100px;
+	background:#00bcd4; 
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+	transition: 0.6s ease;
+}   
+.contact-form .inputbox input[type="submit"]:hover
+{
+	transform: scale(1.1);
+	transition: 0.6s ease;
+	background: #076e7b;
+}

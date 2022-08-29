@@ -1,0 +1,83 @@
+  *{
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+  }
+  .page {
+    height: 100vh;
+  }
+  .page::before {
+    content: "";
+    position: fixed;
+    width: 300%;
+    height: 100%;
+    background-color: rgba(0, 179, 255, 0.722);
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) skew(0, -10deg);
+    border-radius: 50%;
+    z-index: -1;
+    animation: waving 6s ease-in-out infinite alternate;;  
+  }
+  .card {
+    width: 390px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 10px;
+  }
+  form {
+    margin-top:50px ;
+  }
+  input {
+      display: block;
+      width: 350px;
+      height: 40px;
+      outline: none;
+      font-size: 20px;
+      border-top: none;   border-left: none;   border-right: none;
+      border-bottom-style:solid rgb(0,0,0);
+      color: rgb(0, 0, 0);
+      background: rgba(128, 241, 52, 0);
+      margin-bottom: 25px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+button {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(11, 4, 4);
+    margin-top: 15px;
+    background-color: rgba(0, 179, 255, 0.722);
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover {    
+  background-color: #076e7b;
+  transition: 0.7s ease;
+}
+
+form h1 {
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+}
+@keyframes waving{
+from{
+transform: translateX(-50%) skew(0, -10deg);
+}
+to{
+transform: translateX(-30%) skew(10deg, 0);
+}
+}

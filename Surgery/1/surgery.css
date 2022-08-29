@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+section{
+	padding: 100px 200px;
+}
+.main {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background: url("img2.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.main{
+	color: white;
+	font-size: 1.4em;
+	font-weight: 500;
+}
+.main h4{
+	font-size: 1.1em;
+	font-weight: 250;
+	letter-spacing: 1px;	
+	color:white;
+}
+.main-btn{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	font-size: 1em;
+	font-weight: 500;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.6s ease;
+}
+.main-btn:hover{
+	background-color: #D1D1D1;
+	transform: scale(1.1);
+}
+.main span{
+	color: red;
+}
+.Departments{
+	width: 100%;
+	background: url("img10.jpg") no-repeat;
+	background-size: cover;
+}
+.title{
+	justify-content: center;
+	display: flex;
+	color:  white;
+}
+.info{
+	color: white;
+}
+.content{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.Doctors{
+	background-color: #041B2D;	
+}
+.Doctors .content{
+	margin-top: 30px;
+}
+.doctor-card{
+	background-color: white;
+	border: 1px solid white;
+	min-height: 14em;
+	width: 15em;
+	overflow: hidden;
+	border-radius: 10px;
+	margin: 20px;
+	transition: 0.7s ease;
+}
+.doctor-card:hover{
+	transform: scale(1.1);
+}
+.doctor-image img{
+width: 100%;
+}
+.doctor-card:hover .doctor-image{
+opacity: 0.9;
+}
+.doctor-info{
+	padding: 1em;
+}
+.doctor category{
+	font-size: 0.8em;
+}
+.make-an-appointment{
+	text-decoration: none;
+	color: black;
+}
+.make-an-appointment:hover{
+	color: red;
+}
+.Feedbacks-title{
+	color: black;
+	justify-content: center;
+	display: flex;
+}
+.Feedbacks .info{
+	color: black;
+	margin-top: 10px;
+}
+.Sign{
+	color: red;
+	text-decoration: none;
+}
+.contact{
+	background-color: black;
+	height: 350px;
+}
+.contact .icon{
+    font-size: 2em;
+    color: black;
+    margin-left: 45px;
+}
+
+.contact .info h3 {
+    color: black;
+    margin-left: 30px;
+}
+.contact .second h3{
+	margin-left: 35px;
+}
+.contact h2{
+	color: white;
+}
+
+.contact .info p {
+
+	color: black;
+	word-spacing: 10px;
+    font-size: 1em;
+}
+
+.card {
+  background-color: white;
+	width: 21.25em;
+	box-shadow: 0 5px 25px;
+	border-radius: 10px;
+	padding: 25px;
+	margin: 15px;
+	transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1)
+}
+section{
+	padding: 100px 200px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 350px;
+    position: relative;
+    width: 100%;
+}
+.footer .footer-bottom{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+    position: absolute; 
+    bottom: 0px;
+    left: 0px;
+}
+.footer footer-content{
+height: 100px;  
+}
+.footer h2{
+    font-weight: 500px;
+    font-size: 20px;
+    padding-left: 10PX;
+    margin-left: 20px;
+}
+.footer ul {
+list-style: none;
+padding-left: 10PX;
+}
+.footer a {
+text-decoration: none;
+}
+.footer a:hover{
+    color: red;
+}
+.box a{
+    color: white;
+    text-transform: uppercase;
+}
+.footer li {
+line-height: 2em;
+}
+.r-footer {
+display: flex;
+flex-flow: row wrap;
+}
+
+.r-footer > * {
+flex: 1 50%;
+margin-right: 1.25em;
+margin-top: 30px;
+}
+.r-footer > * {
+flex: 0.5;
+}
+.r-footer .box{
+    margin-left: 20px;
+}
+header{
+	background-color: white;
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 200px;
+}
+.logo{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.8em;
+}
+.navigation a{
+	text-decoration: none;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	color: black;
+	font-weight: 500;
+	font-size: 1.1em;
+	padding-left: 30px;
+}
+.navigation a:hover{
+	color:#B6B6B6 ;
+	transition: 0.7s ease;
+}
+.navigation span{
+	color: red;
+}
+.navigation a:hover span{
+	color: black;
+	transition: 0.7s ease;
+}
+.dropbtn{
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{
+	background-color: #9B9B9B;
+	transition: 0.6s ease;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #9B9B9B;
+  color: black;
+}
+.dropdown-content .span{
+	background-color: darkred;
+}

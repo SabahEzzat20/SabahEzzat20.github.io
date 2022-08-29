@@ -1,0 +1,348 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.p1{
+  padding-left: 150px;
+  padding-top: 400px;
+  width: 100%;
+  height: 800px;
+
+}
+
+.container2{
+  height: 780px;
+  width: 100%;
+  background-image: url('smile.jpg') ;
+   
+}
+#intro{
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.boldy{
+  font-size: 70px;
+}
+.small{
+  font-size: 30px;
+}
+.bookButton{
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  padding: 9px;
+  margin-left: 900px;
+  margin-top: 60px;
+  
+}
+.bookButton:hover{
+  background-color: black;
+  transition: 0.7s ease;
+}
+.book{
+  text-decoration: none;
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+.book:hover{
+  color: white;
+}
+.covid .covidoo .COVIDWORD{
+  font-size: 30px;
+  font-weight: 600;
+}
+.covid{
+  width: 100%;
+  height: 600px;
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 80px;
+  
+}
+.covidoo{
+  background-color: #ffffff;
+  height: 100px;
+  width: 620px;
+  margin: auto;
+  font-size: 20px;
+}
+.services{
+  padding: 60px 0 0 60px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.depart{
+   padding: 3px;
+}
+.arrows{
+  padding-left: 60px;
+  font-size: 24px;
+}
+.services_container{
+  background-color: rgb(190, 189, 189);
+  width: 100%;
+  height: 470px;
+}
+.D_department{
+  width: 100%;
+  height: 500px;
+}
+.decoration_depart{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+footer{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 215px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+.list{ 
+  list-style: none;
+  display: inline-block;
+}
+.footer-text{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding: 30px;
+}
+.copyright{
+  padding-top: 70px ;
+}
+.footer-text:hover {
+  color: rgb(201, 5, 5);
+}
+.left{
+  width: 50%;
+  height: 500px;
+  background-image: url("extraction\ \(1\).jpg");
+}
+.right{
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  width: 50%;
+
+}
+.D_department{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.content{
+  padding: 30px;
+}
+::-webkit-scrollbar{
+  width: 13px;
+
+}
+::-webkit-scrollbar-track{
+  background-color: #f6f6f6;
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(0, 0, 0);
+}
+.cont{
+  text-decoration: none;
+}
+.fir{
+  font-size: 26px;
+}
+#child{
+  background-image: url("children.jpg");
+}
+#faceSurgery{
+  background-image: url("oral-surgery\ \(1\).jpeg");
+}
+.paragraph2{
+  font-size: 24px;
+}
+#implanto{
+  background-image: url("imp\ \(1\).jpeg");
+}
+#ortho{
+  background-image: url("child-orthodontics.jpg");
+}
+#debridement{
+  background-image: url("cleaning.png");
+}
+#endodont{
+  background-image: url("microscopeimage.jpg");
+}
+#impla{
+  overflow: auto;
+}
+
+/* tabs */
+
+.tabs{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.tabs li{
+  padding: 10px;
+  background-color: #b4b3b3;
+  color: #000000;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.tabs .activeTab ,.tabs li:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: 550;
+}
+.content2{
+  background-color: #b4b3b3;
+  border: 1px solid black;
+  height: 200px;
+}
+.content2 > div{
+  padding: 20px;
+}
+.content2 > div:not(:first-child){
+  display: none;
+}
+.container3{
+  width: 650px;
+  height: 400px;
+  margin-left: 400px;
+}
+.content2 ul {
+  padding-left: 30px;
+}
+.content2 ul li{
+  padding: 7px;
+}
+
+
+/* the new nav css code  */
+.dropbtn{
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  transition: 0.6s ease;
+  background: none;
+  margin-top: 23px;
+  padding: 16px;
+  margin-left: 7px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+}
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 8px 14px;
+  text-decoration: none;
+  display: block;
+  background-color: black;
+  transition: 0.3s ease;
+}
+.dropdown-content a:hover{
+    background-color: #ffffff;
+    transition: 0.3s ease;
+    color: black;
+    
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+footer{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 215px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+.list{ 
+  list-style: none;
+  display: inline-block;
+}
+.footer-text{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+  text-transform: uppercase;
+}
+.copyright{
+  padding-top: 70px ;
+}
+.footer-text:hover {
+  color: rgb(201, 5, 5);
+}
+nav{
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+ 
+}
+nav .logo{
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li .elements{
+  line-height: 110px;
+  color: rgb(0, 0, 0);
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.elements:hover{
+  background: rgb(0, 0, 0);
+  color: white;
+  border-radius: 10px;
+}
+
+nav ul li .dropdown.dropbtn :hover{
+  background: rgb(0, 0, 0);
+  color: white;
+  border-radius: 10px;
+}
+

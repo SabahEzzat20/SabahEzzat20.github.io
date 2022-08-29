@@ -1,0 +1,39 @@
+#two,
+#four,
+#six {
+    margin-left: 850px;
+    animation-name: span-negative;
+}
+@keyframes span-negative {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+#two {
+    border-bottom-color: transparent;
+    margin-top: 200px;
+}
+#four {
+    border-left-color: transparent;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+#six {
+    border-top-color: transparent;
+    margin-top: 200px;
+}
+.p_two div,
+.p_four div,
+.p_six div {
+    margin-left: 20px;
+    margin-top: -400px;
+}
+.p_two ul,
+.p_four ul,
+.p_six ul {
+    list-style-type: square;
+    margin-left: 35px;
+}

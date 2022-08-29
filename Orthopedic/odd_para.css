@@ -1,0 +1,51 @@
+.pho_p {
+    width: 400px;
+    height: 400px;
+    /* margin-top: 60px; */
+    border-radius: 50%;
+    border: 5px solid #e91e63;
+    animation-duration: 12S;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+#one,
+#three,
+#five {
+    margin-left: 150px;
+    animation-name: span-positive;
+}
+@keyframes span-positive {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#one {
+    border-right-color: transparent;
+    margin-top: 150px;
+    margin-bottom: -20px;
+}
+#three {
+    border-top-color: transparent;
+    margin-top: 200px;
+}
+#five {
+    border-bottom-color: transparent;
+    margin-top: 200px;
+    margin-bottom: -160px;
+}
+.p_one div,
+.p_three div,
+.p_five div {
+    margin-left: 650px;
+    margin-top: -350px;
+}
+.p_one ul,
+.p_three ul,
+.p_five ul {
+    list-style-type: square;
+    margin-left: 35px;
+}

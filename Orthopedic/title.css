@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    font-size: 35px;
+    color: darkcyan;
+}
+.span_p {
+    font-size: 25px;
+    color: cornflowerblue;
+}
+.pho_tit {
+    width: 100%;
+    height: 530px;
+}
+.title p {
+    margin-top: -80px;
+    margin-left: 20px;
+    font-size: 100px;
+    font-weight: bold;
+}
